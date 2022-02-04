@@ -1,0 +1,93 @@
+h1,h2,h3{
+  color: #ff6f75;
+  font-weight: bold;
+}
+
+p{
+    color: #555;
+}
+
+a,a:hover{
+  font-weight: bold;
+  text-decoration: none;
+  color: #ff6f75;
+}
+
+.border-custom{
+  border: 10px solid;
+  border-color: #ffe487 #ff6f75 #ff6f75 #ffe487;
+  border-radius: 25px;
+}
+
+.propic{
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, rgb(255,228,135) 0%, rgb(255,111,117) 100%);
+    padding: 2px;
+}
+
+.propic > img {
+    background-color: #fff;
+}
+
+.rounded-custom{
+  border-radius: 15px;
+}
+
+.padding-custom{
+    padding: 0.2rem;    
+}
+
+.bg-pink{
+    background-color: #FF6F75;
+}
+
+.bg-yellow{
+    background-color: #ffe487;
+}
+
+#social a{
+    display: block;
+    border-style: solid;
+    border-color: #ff6f75;
+    border-width: 2px 1px;
+    background-color: #fff;
+}
+
+#social a:first-child{
+    border-radius: 40px 0 0 40px;
+    border-left-width: 2px;
+}
+
+#social a:last-child{
+    border-radius: 0 40px 40px 0;
+    border-right-width: 2px;
+}
+
+#social a:active{
+  color: #ffe487;
+  background-color: #ff6f75;
+   -webkit-transition: color 150ms, background-color 150ms ease-in;
+    -ms-transition: color 150ms, background-color 150ms ease-in;
+    transition: color 150ms, background-color 150ms ease-in;
+}
+
+@media (hover: hover){
+    #social a:hover{
+      color: #ffe487;
+      background-color: #ff6f75;
+       -webkit-transition: color 150ms, background-color 150ms ease-in;
+        -ms-transition: color 150ms, background-color 150ms ease-in;
+        transition: color 150ms, background-color 150ms ease-in;
+    }
+    .insta-link:hover {
+        opacity: 0.5;
+         -webkit-transition: opacity 150ms ease-in;
+        -ms-transition: opacity 150ms ease-in;
+        transition: opacity 150ms ease-in;
+    } 
+}
+
+.insta-image{
+    border: 1px solid #dedede;
+}
